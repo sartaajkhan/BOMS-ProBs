@@ -1,7 +1,8 @@
 # BOMS-ProBs
+This is a repository for the BO Hackathon hosted by Acceleration Consortium for Chemistry and Materials.
 
 Title:  Streamlining Material Discovery: Bayesian Optimization in Thermal Fluid Mixtures
-team_leads:
+Team leads:
   - Roozbeh Alishahian (University of Toronto)
   - Mahyar Rajabi (University of Toronto)
   - Sartaaj Khan (University of Toronto)
@@ -9,9 +10,7 @@ team_leads:
   - Xu Chen  (University of Toronto)
   - Maryam Ebrahimiazar (University of Toronto)
 
-
-# Comment these lines by prepending the pound symbol (#) to each line to hide these elements
-contributors:
+Contributors:
 
   - Seyed Mohamad Moosavi (University of Toronto)
   - Mohammad Zargartalebi (University of Toronto)
