@@ -21,7 +21,7 @@ Title:  Streamlining Material Discovery: Bayesian Optimization in Thermal Fluid 
 # youtube_video: <your-video-id>
 
 # Project description
-In this project, our objective is to evaluate active research areas in Bayesian Optimization (BO) that are applicable to thermal fluids. We aim to utilize BO to improve the process of discovering new mixtures while also developing a methodology for fine-tuning hyperparameters, taking into account constraints on thermal fluid properties. Ultimately, the final model will predict the figure of merit (FOM) against four thermophysical properties of the mixtures, enabling us to select the most efficient candidate for experimentalists and discover mixtures that reduce uncertainties in our search space.
+In this project, our objective is to evaluate active research areas in Bayesian Optimization (BO) that are applicable to fluids. We aim to utilize BO to improve the process of discovering new mixtures while also developing a methodology for fine-tuning hyperparameters, taking into account constraints on fluid properties. Ultimately, the final model will predict the heat transfer coefficients against four thermophysical properties of the fluids, enabling us to select the most efficient candidate for experimentalists and discover fluids that reduce uncertainties in our search space.
 
 References:
 1. Deshwal, A., Simon, C. M., & Doppa, J. R. (2021). Bayesian optimization of nanoporous materials. Molecular Systems Design & Engineering, 6(12), 1066-1086.
