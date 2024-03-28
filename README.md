@@ -24,5 +24,4 @@ In this project, our objective is to evaluate active research areas in Bayesian 
 
 References:
 1. Deshwal, A., Simon, C. M., & Doppa, J. R. (2021). Bayesian optimization of nanoporous materials. Molecular Systems Design & Engineering, 6(12), 1066-1086.
-
-2- Jirasek, F., & Hasse, H. (2023). Combining machine learning with physical knowledge in thermodynamic modeling of fluid mixtures. Annual Review of Chemical and Biomolecular Engineering, 14, 31-51.
+2. Jirasek, F., & Hasse, H. (2023). Combining machine learning with physical knowledge in thermodynamic modeling of fluid mixtures. Annual Review of Chemical and Biomolecular Engineering, 14, 31-51.
