@@ -1,5 +1,6 @@
 # BOMS-ProBs
 This is a repository for the BO Hackathon hosted by Acceleration Consortium for Chemistry and Materials.
+URL to project description: https://ac-bo-hackathon.github.io/projects/project-34-boms-probs/
 
 Title:  Streamlining Material Discovery: Bayesian Optimization in Thermal Fluid Mixtures
 ## Team leads
