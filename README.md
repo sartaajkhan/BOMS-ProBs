@@ -17,6 +17,9 @@ Title:  Streamlining Material Discovery: Bayesian Optimization in Thermal Fluid 
   - Mohammad Zargartalebi (University of Toronto)
   - Hanie Rezaei (University of Toronto)
 
+![Poster_Hackathon](https://github.com/sartaajkhan/BOMS-ProBs/assets/67485363/ae38b250-1b10-4bdc-918a-7c0ac51938cb)
+
+
 # Project description
 In this project, our objective is to evaluate active research areas in Bayesian Optimization (BO) that are applicable to fluids. We aim to utilize BO to improve the process of discovering new mixtures while also developing a methodology for fine-tuning hyperparameters, taking into account constraints on fluid properties. Ultimately, the final model will predict the heat transfer coefficients against four thermophysical properties of the fluids, enabling us to select the most efficient candidate for experimentalists and discover fluids that reduce uncertainties in our search space.
 
