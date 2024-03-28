@@ -51,7 +51,7 @@ def get_h_best(initial_X, initial_y, X, y, n_iterations = 50):
     
     return h_best, h_pred
 
-def get_rank_best(initial_X, initial_y, X, y, FOM_to_rank, n_iterations = 50):
+def get_rank_best(initial_X, initial_y, X, y, h_to_rank, n_iterations = 50):
     """
     get best rank obtained from heat transfer coeff.
     """
@@ -70,7 +70,7 @@ def get_rank_best(initial_X, initial_y, X, y, FOM_to_rank, n_iterations = 50):
     # Bayesian optimization
     h_pred = []
     h_best = [np.max(initial_y)]
-    rank_best = [FOM_to_rank[np.max(initial_y)]]
+    rank_best = [h_to_rank[np.max(initial_y)]]
 
     warnings.filterwarnings('ignore') #for higher n_query > 250, it returns ConvergenceWarning: lbfgs failed to converge (status=2)
 
@@ -84,7 +84,7 @@ def get_rank_best(initial_X, initial_y, X, y, FOM_to_rank, n_iterations = 50):
 
         if y_pool[query_idx].item() > h_best[-1]:
             h_best.append(y_pool[query_idx].item())
-            rank_best.append(FOM_to_rank[y_pool[query_idx].item()])
+            rank_best.append(h_to_rank[y_pool[query_idx].item()])
         else:
             h_best.append(h_best[-1])
             rank_best.append(rank_best[-1])
